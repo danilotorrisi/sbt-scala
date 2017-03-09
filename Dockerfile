@@ -5,7 +5,7 @@ MAINTAINER Jim Schubert <james.schubert@gmail.com>
 RUN apk update && apk add --no-cache bash gnupg ca-certificates wget
 
 ENV SCALA_VERSION 2.11.8
-ENV SBT_VERSION 0.13.11
+ENV SBT_VERSION 0.13.13
 
 RUN cd /tmp \
     && update-ca-certificates \
